@@ -1,0 +1,130 @@
+{
+  "main": {
+    "name":"Joonsoo (Daniel) Kim",
+    "occupation":"University Student/Nuclear Engineer",
+    "description":"I'm pursueing my path in both Software and Hardware Engineer",
+    "image":"profilepic.jpg",
+    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
+    "contactmessage":"Please fill in the form below to contact me for any questions.",
+    "email": "16jk1@queensu.ca",
+    "phone": "343-363-8249",
+    "address":{
+      "street":"30 Roehampton Ave",
+      "city":"Toronto",
+      "state":"Ontario",
+      "zip": "M4P 0B9"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/joonsoo-kim-112b66152/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/16jk1",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "education":[
+      {
+        "school":"Queen's University",
+        "degree":"Computer Engineering with Professional Engineering experience",
+        "graduated":"Present",
+        "description":"Took courses in Algorithms, Data Structures, Computer Architecture, Microprocessor Systems, Operating Systems, Digital Systems Engineering, Object Oriented Programming, and Human-Computer Interaction"
+      }
+    ],
+    "work":[
+      {
+        "company":"Ontario Power Generation",
+        "title":"Computers and Control Design Engineer",
+        "years":"May 2019 - Present",
+        "description":"Investigated and analyzed critical errors on the Shut Down System by programming C++ and Shell scripts to replicate errors in the Computer Lab. Reduced 6 months investigation period to 2 weeks by use of scripts. Performed and built validation tests on highest level of quality assurance in the world such that safety related computer systems will not cause errors to prevent from nuclear disaster. Provided a solution that prevented from Shut Down System to crash periodically due to a virtual memory leak."
+      },
+      {
+        "company":"Diversability Development Oraganization",
+        "title":"Web Developer",
+        "years":"June 2018 - Auguest 2018",
+        "description":"Designed a website using software programs such as HTML, CSS, JavaScript, WordPress, PHP, and Python to ensure website compliance with accessibility standards. Optimized the server traffic, ecommerce, image sizes, and email transfer to make the overall loading time 10% faster."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Java, C++, Python, C, C#",
+        "level":"85%"
+      },
+      {
+        "name":"ReactJS",
+        "level":"80%"
+      },
+      {
+        "name":"GraphQL",
+        "level":"70%"
+      },
+      {
+        "name":"TypeScript, NodeJS",
+        "level":"60%"
+      },
+      {
+        "name":"MongoDB, Mongoose, Express",
+        "level":"50%"
+      },
+      {
+        "name":"PHP, MySQL",
+        "level":"100%"
+      },
+      {
+        "name":"Linux",
+        "level":"50%"
+      },
+      {
+        "name":"Android Studio, Unity",
+        "level":"60%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Diversability Development Organization",
+        "category":"A HTML, CSS, JavaScript, WordPress, PHP, and Python website with accessibility standards.",
+        "image":"ddo.jpg",
+        "url":"https://diversable.org/"
+      },
+      {
+        "title":"Movie Rating App",
+        "category":"A React APP that sorts movies upon rankings",
+        "image":"move-app.jpg",
+        "url":"https://16jk1.github.io/movie-app/"
+      },
+      {
+        "title":"Bom Bibimbap",
+        "category":"A Restaurant Website that is currently being lively used.",
+        "image":"bom.jpg",
+        "url":"https://www.bombibimbap.com"
+      },
+      {
+        "title":"Heartbeat Sensor VR Game",
+        "category":"An exercise game in Unity for the Google Daydream VR headset utilizing a heart rate monitor and an Arduino Uno",
+        "image":"vrgame.jpg",
+        "url":"https://www.youtube.com/watch?v=Bu0UY1nOdLY"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
