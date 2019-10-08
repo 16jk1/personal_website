@@ -1,117 +1,151 @@
 {
   "main": {
-    "name":"Joonsoo (Daniel) Kim",
-    "occupation":"University Student/Nuclear Engineer",
-    "description":"I'm pursueing my path in both Software and Hardware Engineer",
+    "name":"Tim Baker",
+    "occupation":"(Your Occupation Here)",
+    "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
     "image":"profilepic.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Please fill in the form below to contact me for any questions.",
-    "email": "16jk1@queensu.ca",
-    "phone": "343-363-8249",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "youremailhere@gmail.com",
+    "phone": "555-555-5555",
     "address":{
-      "street":"30 Roehampton Ave",
-      "city":"Toronto",
-      "state":"Ontario",
-      "zip": "M4P 0B9"
+      "street":"(Your Street)",
+      "city":"(Your City)",
+      "state":"(Your State)",
+      "zip": "(Your Zip/Postal Code)"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"http://timbakerdev.com",
     "social":[
       {
+        "name":"facebook",
+        "url":"http://facebook.com/tim.baker.906",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"google-plus",
+        "url":"http://googleplus.com/tbakerx",
+        "className":"fa fa-google-plus"
+      },
+      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/joonsoo-kim-112b66152/",
+        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
         "className":"fa fa-linkedin"
       },
       {
+        "name":"instagram",
+        "url":"http://instagram.com/tbaker_x",
+        "className":"fa fa-instagram"
+      },
+      {
         "name":"github",
-        "url":"http://github.com/16jk1",
+        "url":"http://github.com/tbakerx",
         "className":"fa fa-github"
+      },
+      {
+        "name":"skype",
+        "url":"http://skype.com",
+        "className":"fa fa-skype"
       }
     ]
   },
   "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"Queen's University",
-        "degree":"Computer Engineering with Professional Engineering experience",
-        "graduated":"Present",
-        "description":"Took courses in Algorithms, Data Structures, Computer Architecture, Microprocessor Systems, Operating Systems, Digital Systems Engineering, Object Oriented Programming, and Human-Computer Interaction"
+        "school":"University?",
+        "degree":"Masters in Beer tasting",
+        "graduated":"April 2007",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"School #1 Maybe College?",
+        "degree":"What did you study 101",
+        "graduated":"March 2003",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
     "work":[
       {
-        "company":"Ontario Power Generation",
-        "title":"Computers and Control Design Engineer",
-        "years":"May 2019 - Present",
-        "description":"Investigated and analyzed critical errors on the Shut Down System by programming C++ and Shell scripts to replicate errors in the Computer Lab. Reduced 6 months investigation period to 2 weeks by use of scripts. Performed and built validation tests on highest level of quality assurance in the world such that safety related computer systems will not cause errors to prevent from nuclear disaster. Provided a solution that prevented from Shut Down System to crash periodically due to a virtual memory leak."
+        "company":"Awesome Design Studio",
+        "title":"Senior UX God ",
+        "years":"March 2010 - Present",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
-        "company":"Diversability Development Oraganization",
-        "title":"Web Developer",
-        "years":"June 2018 - Auguest 2018",
-        "description":"Designed a website using software programs such as HTML, CSS, JavaScript, WordPress, PHP, and Python to ensure website compliance with accessibility standards. Optimized the server traffic, ecommerce, image sizes, and email transfer to make the overall loading time 10% faster."
+        "company":"Super Cool Studio",
+        "title":"Junior bug fixer",
+        "years":"March 2007 - February 2010",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       }
     ],
     "skills":[
       {
-        "name":"Java, C++, Python, C, C#",
-        "level":"85%"
+        "name":"Git",
+        "level":"60%"
       },
       {
-        "name":"ReactJS",
+        "name":"Illustrator",
+        "level":"55%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"HTML5",
         "level":"80%"
       },
       {
-        "name":"GraphQL",
-        "level":"70%"
-      },
-      {
-        "name":"TypeScript, NodeJS",
-        "level":"60%"
-      },
-      {
-        "name":"MongoDB, Mongoose, Express",
+        "name":"VueJs",
         "level":"50%"
       },
       {
-        "name":"PHP, MySQL",
-        "level":"100%"
-      },
-      {
-        "name":"Linux",
-        "level":"50%"
-      },
-      {
-        "name":"Android Studio, Unity",
-        "level":"60%"
+        "name":"MongoDB",
+        "level":"80%"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Diversability Development Organization",
-        "category":"A HTML, CSS, JavaScript, WordPress, PHP, and Python website with accessibility standards.",
-        "image":"ddo.jpg",
-        "url":"https://diversable.org/"
+        "title":"Canadian Wanderlust",
+        "category":"My Travel Blog for my post-university travels",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
       },
       {
-        "title":"Movie Rating App",
-        "category":"A React APP that sorts movies upon rankings",
-        "image":"move-app.jpg",
-        "url":"https://16jk1.github.io/movie-app/"
+        "title":"Fury Fighting Gear",
+        "category":"(offline now) A fighting gear company I started",
+        "image":"fury-fighting-gear.jpg",
+        "url":"http://www.timbakerdev.com"
       },
       {
-        "title":"Bom Bibimbap",
-        "category":"A Restaurant Website that is currently being lively used.",
-        "image":"bom.jpg",
-        "url":"https://www.bombibimbap.com"
+        "title":"Original Thai Food",
+        "category":"Website I built for a restaurant I like in Thailand",
+        "image":"original-thai-food.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title":"Heartbeat Sensor VR Game",
-        "category":"An exercise game in Unity for the Google Daydream VR headset utilizing a heart rate monitor and an Arduino Uno",
-        "image":"vrgame.jpg",
-        "url":"https://www.youtube.com/watch?v=Bu0UY1nOdLY"
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Smirkspace",
+        "category":"(MVP Only) A React and Meteor based chat University project.",
+        "image":"smirkspace.jpg",
+        "url":"http://www.smirkspace.com"
       }
     ]
   },
