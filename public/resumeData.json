@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Joonsoo (Daniel) Kim",
-    "occupation":"University Student/Nuclear Engineer",
+    "occupation":"University Student/Nuclear Engineer Intern",
     "description":"I'm pursueing my path in both Software and Hardware Engineer",
     "image":"profilepic.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
@@ -14,8 +14,8 @@
       "state":"Ontario",
       "zip": "M4P 0B9"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "https://16jk1.github.io/personal_website/",
+    "resumedownload":"https://16jk1.github.io/personal_website/#resume/",
     "social":[
       {
         "name":"linkedin",
@@ -91,25 +91,25 @@
     "projects": [
       {
         "title":"Diversability Development Organization",
-        "category":"A HTML, CSS, JavaScript, WordPress, PHP, and Python website with accessibility standards.",
+        "category":"I worked at this company as a Web Developer to compliance their website with accessiblity standard. I used HTML, CSS, JavaScript, WordPress, PHP, and Python to beautify the website.",
         "image":"ddo.jpg",
         "url":"https://diversable.org/"
       },
       {
         "title":"Movie Rating App",
-        "category":"A React APP that sorts movies upon rankings",
+        "category":"I am fairly new to React and really liking it. I am continuing to use React to develop cool projects. I have built a ReactJS based Web App that lists movies upon their popularity and rankings.",
         "image":"move-app.jpg",
         "url":"https://16jk1.github.io/movie-app/"
       },
       {
         "title":"Bom Bibimbap",
-        "category":"A Restaurant Website that is currently being lively used.",
+        "category":"Bom Bibimbap is a fairly popular restaurant that is located in the greater Toronto area. I mainly used Boostrap to create an advertisement website for their restaurant such that their customers can easily access information about the restaurant.",
         "image":"bom.jpg",
         "url":"https://www.bombibimbap.com"
       },
       {
         "title":"Heartbeat Sensor VR Game",
-        "category":"An exercise game in Unity for the Google Daydream VR headset utilizing a heart rate monitor and an Arduino Uno",
+        "category":"I created an exercise game in Unity for the Google Daydream VR headset utilizing a heart rate monitor and an Arduino Uno. I took a big contribution in this project by using assembly code in Arduino read the analog and digital signals from the heartbeat sensors to Unity.",
         "image":"vrgame.jpg",
         "url":"https://www.youtube.com/watch?v=Bu0UY1nOdLY"
       }
