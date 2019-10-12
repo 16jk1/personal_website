@@ -109,7 +109,7 @@
       },
       {
         "title":"Heartbeat Sensor VR Game",
-        "category":"I created an exercise game in Unity for the Google Daydream VR headset utilizing a heart rate monitor and an Arduino Uno. I took a big contribution in this project by using assembly code in Arduino read the analog and digital signals from the heartbeat sensors to Unity.",
+        "category":"I created an exercise game in Unity for the Google Daydream VR headset utilizing a heart rate monitor and an Arduino Uno. I took a big contribution in this project by using assembly code in Arduino to read the analog and digital signals from the heartbeat sensors to Unity.",
         "image":"vrgame.jpg",
         "url":"https://www.youtube.com/watch?v=Bu0UY1nOdLY"
       }
