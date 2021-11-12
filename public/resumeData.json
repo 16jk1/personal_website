@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Joonsoo (Daniel) Kim",
-    "occupation":"University Student/Nuclear Engineer Intern",
+    "occupation":"University Student/Full Stack Developer",
     "description":"I'm pursuing my path in both Software and Hardware Engineer",
     "image":"profilepic.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
@@ -9,13 +9,13 @@
     "email": "16jk1@queensu.ca",
     "phone": "343-363-8249",
     "address":{
-      "street":"30 Roehampton Ave",
+      "street":"",
       "city":"Toronto",
       "state":"Ontario",
-      "zip": "M4P 0B9"
+      "zip": ""
     },
     "website": "https://16jk1.github.io/personal_website/",
-    "resumedownload":"https://16jk1.github.io/personal_website/#resume/",
+    "resumedownload":"10-15-2021 Resume.pdf",
     "social":[
       {
         "name":"linkedin",
@@ -40,10 +40,22 @@
     ],
     "work":[
       {
+        "company":"Askuity at The Home Depot",
+        "title":"Backend Developer",
+        "years":"November 2021 - Present",
+        "description":""
+      },
+      {
+        "company":"Checkmate",
+        "title":"Full Stack Developer",
+        "years":"October 2020 - April 2021",
+        "description":"Assigned as a lead web developer of prototyping a global stock exchange information service application using ReactJS, GraphQL, Prisma, Apollo, React Native, and Heroku. Developed functionalities such as authentication, like/unlike a photo, comment, search by user, search by location, see user profile, follow/unfollow user, and show the feed. Integrated web service into iOS and Android application using Expo and React Native."
+      },
+      {
         "company":"Ontario Power Generation",
         "title":"Computers and Control Design Engineer",
-        "years":"May 2019 - Present",
-        "description":"Investigated and analyzed critical errors on the Shut Down System by programming C++ and Shell scripts to replicate errors occurred at the plant site. Reduced 6 months investigation period to 2 weeks by use of scripts. Built and redesigned the wires and I/O connections on the Validation Test computer within 4 months which verifies whether the computers are transmitting/receiving packets to each other and whether the computers are reading digital and analog signals properly. Created a software application that replicates the field data and sends it to computers in the lab for testing purposes using LabView and .NET. "
+        "years":"May 2019 - May 2020",
+        "description":"Investigated and analyzed critical errors on the Shut Down System by programming C++ and Shell scripts to replicate errors occurred at the plant site. Reduced 6 months investigation period to 2 weeks by use of scripts. Constructed and redesigned the hardware configuration of the Validation Test Rigs computer to emulate and monitor field within 4 months period. The VTR hosts software which is used to create and verify different field scenarios through use of the VTR hardware. Created a software application that replicates the field data and sends it to computers in the lab for testing purposes using LabView, C#, and .NET. "
       },
       {
         "company":"Diversability Development Oraganization",
@@ -58,11 +70,11 @@
         "level":"85%"
       },
       {
-        "name":"ReactJS",
+        "name":"ReactJS, Apollo, React Native",
         "level":"80%"
       },
       {
-        "name":"GraphQL",
+        "name":"GraphQL, Prisma",
         "level":"70%"
       },
       {
@@ -90,6 +102,12 @@
   "portfolio":{
     "projects": [
       {
+        "title":"BlueChip",
+        "category":"I worked at a startup company to build a prototype for their SNS application. I used ReactJS, Apollo, Prisma, GraphQL, and React Native ",
+        "image":"bluechip.jpg",
+        "url":"https://bluechip-checkmate.netlify.app/"
+      },
+      {
         "title":"Diversability Development Organization",
         "category":"I worked at this company as a Web Developer to compliance their website with accessiblity standard. I used HTML, CSS, JavaScript, WordPress, PHP, and Python to beautify the website.",
         "image":"ddo.jpg",
@@ -109,7 +127,7 @@
       },
       {
         "title":"Heartbeat Sensor VR Game",
-        "category":"I created an exercise game in Unity for the Google Daydream VR headset utilizing a heart rate monitor and an Arduino Uno. I took a big contribution in this project by using assembly code in Arduino to read the analog and digital signals from the heartbeat sensors to Unity.",
+        "category":"I created an exercise game in Unity for the Google Daydream VR headset utilizing a heart rate monitor and an Arduino Uno. I took a big contribution in this project by using assembly code in Arduino read the analog and digital signals from the heartbeat sensors to Unity.",
         "image":"vrgame.jpg",
         "url":"https://www.youtube.com/watch?v=Bu0UY1nOdLY"
       }
