@@ -9,13 +9,13 @@
     "email": "16jk1@queensu.ca",
     "phone": "343-363-8249",
     "address":{
-      "street":"30 Roehampton Ave",
+      "street":"",
       "city":"Toronto",
       "state":"Ontario",
-      "zip": "M4P 0B9"
+      "zip": ""
     },
     "website": "https://16jk1.github.io/personal_website/",
-    "resumedownload":"10-30-2020 Resume.pdf",
+    "resumedownload":"10-15-2021 Resume.pdf",
     "social":[
       {
         "name":"linkedin",
@@ -40,9 +40,15 @@
     ],
     "work":[
       {
+        "company":"Askuity at The Home Depot",
+        "title":"Backend Developer",
+        "years":"November 2021 - Present",
+        "description":""
+      },
+      {
         "company":"Checkmate",
         "title":"Full Stack Developer",
-        "years":"October 2020 - Present",
+        "years":"October 2020 - April 2021",
         "description":"Assigned as a lead web developer of prototyping a global stock exchange information service application using ReactJS, GraphQL, Prisma, Apollo, React Native, and Heroku. Developed functionalities such as authentication, like/unlike a photo, comment, search by user, search by location, see user profile, follow/unfollow user, and show the feed. Integrated web service into iOS and Android application using Expo and React Native."
       },
       {
