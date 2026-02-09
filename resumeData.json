@@ -1,8 +1,8 @@
 {
   "main": {
     "name":"Joonsoo (Daniel) Kim",
-    "occupation":"Backend Developer",
-    "description":"I'm pursuing my path in Software Developer",
+    "occupation":"University Student/Full Stack Developer",
+    "description":"I'm pursuing my path in both Software and Hardware Engineer",
     "image":"profilepic.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Please fill in the form below to contact me for any questions.",
@@ -34,8 +34,8 @@
       {
         "school":"Queen's University",
         "degree":"Computer Engineering with Professional Engineering experience",
-        "graduated":"April 2021",
-        "description":"Took courses in Algorithms, Data Structures, Computer Architecture, Microprocessor Systems, Operating Systems, Digital Systems Engineering, Object Oriented Programming, Machine Vision, Machine Learning, Data Base, and QA"
+        "graduated":"Present",
+        "description":"Took courses in Algorithms, Data Structures, Computer Architecture, Microprocessor Systems, Operating Systems, Digital Systems Engineering, Object Oriented Programming, and Human-Computer Interaction"
       }
     ],
     "work":[
