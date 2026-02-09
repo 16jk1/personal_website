@@ -1,8 +1,8 @@
 {
   "main": {
     "name":"Joonsoo (Daniel) Kim",
-    "occupation":"University Student/Full Stack Developer",
-    "description":"I'm pursuing my path in both Software and Hardware Engineer",
+    "occupation":"Full Stack Developer",
+    "description":"I'm pursuing my path in Software Developerment as a Full Stack Developer",
     "image":"profilepic.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
     "contactmessage":"Please fill in the form below to contact me for any questions.",
@@ -41,7 +41,7 @@
     "work":[
       {
         "company":"Askuity at The Home Depot",
-        "title":"Backend Developer",
+        "title":"Full Stack Developer",
         "years":"November 2021 - Present",
         "description":""
       },
@@ -66,36 +66,24 @@
     ],
     "skills":[
       {
-        "name":"Java, C++, Python, C, C#",
-        "level":"85%"
+        "name":"Scala",
+        "level":"95%"
       },
       {
-        "name":"ReactJS, Apollo, React Native",
-        "level":"80%"
-      },
-      {
-        "name":"GraphQL, Prisma",
-        "level":"70%"
+        "name":"PostgreSQL",
+        "level":"90%"
       },
       {
         "name":"TypeScript, NodeJS",
-        "level":"60%"
+        "level":"85%"
       },
       {
-        "name":"MongoDB, Mongoose, Express",
-        "level":"50%"
+        "name":"GCP",
+        "level":"85%"
       },
       {
-        "name":"PHP, MySQL",
-        "level":"100%"
-      },
-      {
-        "name":"Linux",
-        "level":"50%"
-      },
-      {
-        "name":"Android Studio, Unity",
-        "level":"60%"
+        "name":"Java, Python",
+        "level":"75%"
       }
     ]
   },
