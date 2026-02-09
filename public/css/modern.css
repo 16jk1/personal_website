@@ -1,0 +1,482 @@
+/*
+ * Modern theme overrides – trendy refresh
+ * Overrides layout.css and default.css for a fresher look
+ */
+
+:root {
+  --bg-dark: #0a0a0b;
+  --bg-card: #141416;
+  --bg-elevated: #1c1c1f;
+  --bg-light: #f8fafc;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  --accent: #22d3ee;
+  --accent-hover: #06b6d4;
+  --accent-soft: rgba(34, 211, 238, 0.15);
+  --border: rgba(255, 255, 255, 0.08);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
+  --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.35);
+  --transition: 0.2s ease;
+}
+
+/* Base – larger fonts for readability */
+body {
+  background: var(--bg-dark) !important;
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  font-size: 22px !important;
+  line-height: 1.65 !important;
+  color: var(--text-secondary) !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Header – hero */
+header {
+  height: 100vh !important;
+  min-height: 560px !important;
+  background: linear-gradient(180deg, rgba(10, 10, 11, 0.7) 0%, rgba(10, 10, 11, 0.4) 50%, var(--bg-dark) 100%),
+    #161415 url(../images/header-background.jpg) no-repeat top center !important;
+  background-size: cover !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+header:before { display: none !important; }
+header .banner {
+  display: block !important;
+  vertical-align: middle !important;
+  padding: 2rem !important;
+}
+
+header .banner-text h1 {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: clamp(3.1rem, 8vw, 5rem) !important;
+  font-weight: 700 !important;
+  letter-spacing: -0.03em !important;
+  color: var(--text-primary) !important;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.4) !important;
+  margin-bottom: 0.5rem !important;
+}
+
+header .banner-text h3 {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 1.65rem !important;
+  color: var(--text-secondary) !important;
+  width: 90% !important;
+  max-width: 560px !important;
+  margin: 0 auto !important;
+  line-height: 1.7 !important;
+}
+
+header .banner-text h3 span,
+header .banner-text h3 a {
+  color: var(--accent) !important;
+}
+
+header .banner-text hr {
+  width: 60px !important;
+  margin: 1.5rem auto !important;
+  border: none !important;
+  border-top: 2px solid var(--accent) !important;
+  opacity: 0.8 !important;
+}
+
+header .social li a {
+  color: var(--text-secondary) !important;
+  transition: color var(--transition), transform var(--transition) !important;
+}
+header .social li a:hover {
+  color: var(--accent) !important;
+  transform: translateY(-2px);
+}
+
+header .scrolldown a {
+  color: var(--text-secondary) !important;
+  opacity: 0.8 !important;
+  transition: color var(--transition), opacity var(--transition) !important;
+}
+header .scrolldown a:hover {
+  color: var(--accent) !important;
+  opacity: 1 !important;
+}
+
+/* Nav – glass bar */
+#nav-wrap {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 1.3rem !important;
+  letter-spacing: 0.05em !important;
+  background: rgba(10, 10, 11, 0.8) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border) !important;
+}
+#nav-wrap.opaque {
+  background: rgba(20, 20, 22, 0.9) !important;
+}
+
+ul#nav li a {
+  color: var(--text-secondary) !important;
+  padding: 0.75rem 1rem !important;
+  border-radius: var(--radius-sm) !important;
+  transition: color var(--transition), background var(--transition) !important;
+}
+ul#nav li a:hover {
+  color: var(--text-primary) !important;
+  background: var(--accent-soft) !important;
+}
+ul#nav li.current a {
+  color: var(--accent) !important;
+  background: var(--accent-soft) !important;
+}
+
+/* About */
+#about {
+  background: var(--bg-card) !important;
+  padding-top: 6rem !important;
+  padding-bottom: 4rem !important;
+}
+
+#about h2 {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 1.8rem !important;
+  color: var(--text-primary) !important;
+  margin-bottom: 0.75rem !important;
+}
+#about p, #about .address {
+  font-size: 1.4rem !important;
+  color: var(--text-secondary) !important;
+  line-height: 1.7 !important;
+}
+#about a {
+  color: var(--accent) !important;
+}
+#about a:hover {
+  color: var(--accent-hover) !important;
+}
+#about .download .button {
+  background: var(--bg-elevated) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--radius-md) !important;
+  padding: 0.85rem 1.75rem !important;
+  font-size: 1.35rem !important;
+  font-family: 'DM Sans', sans-serif !important;
+  transition: background var(--transition), color var(--transition), border-color var(--transition) !important;
+}
+#about .download .button:hover {
+  background: var(--accent) !important;
+  color: var(--bg-dark) !important;
+  border-color: var(--accent) !important;
+}
+
+/* Resume */
+#resume {
+  background: var(--bg-light) !important;
+  padding-top: 6rem !important;
+  padding-bottom: 4.5rem !important;
+}
+
+#resume h1 {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 1.35rem !important;
+  letter-spacing: 0.1em !important;
+  color: var(--bg-dark) !important;
+}
+#resume h1 span {
+  border-bottom-color: var(--accent) !important;
+  padding-bottom: 0.5rem !important;
+}
+#resume h3 {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 1.75rem !important;
+  color: var(--bg-dark) !important;
+}
+/* Education & Work – readable body text on light background */
+#resume .info, #resume .date {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 1.35rem !important;
+  color: #475569 !important;
+}
+#resume .education p, #resume .work p,
+#resume .main-col p {
+  font-size: 1.4rem !important;
+  line-height: 1.65 !important;
+  color: #334155 !important;
+}
+#resume a {
+  color: var(--accent-hover) !important;
+}
+#resume a:hover {
+  color: var(--bg-dark) !important;
+}
+
+.education, .work {
+  margin-bottom: 2.5rem !important;
+  padding-bottom: 1.5rem !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Skill bars – structure: label on top, bar track below, fill at bottom of li */
+#resume .skill .main-col > p {
+  font-size: 1.4rem !important;
+  color: #334155 !important;
+  margin-bottom: 1.75rem !important;
+}
+.bars {
+  width: 100% !important;
+  float: none !important;
+  padding: 0 !important;
+  margin: 0.5rem 0 0 0 !important;
+}
+.bars .skills {
+  list-style: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 1.75rem !important;
+}
+.bars li {
+  position: relative !important;
+  margin: 0 !important;
+  padding: 0 0 0 0 !important;
+  min-height: 3.5rem !important;
+  height: auto !important;
+  background: none !important;
+  border-radius: 0 !important;
+  box-sizing: border-box !important;
+}
+/* Label: above the bar */
+.bars li em {
+  display: block !important;
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  margin-bottom: 1rem !important;
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 1.3rem !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+  color: #334155 !important;
+  text-transform: none !important;
+  letter-spacing: 0 !important;
+}
+/* Track: full-width gray bar at bottom of li (padding above via bottom offset) */
+.bars li::after {
+  content: '' !important;
+  display: block !important;
+  position: absolute !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  height: 12px !important;
+  background: rgba(0, 0, 0, 0.1) !important;
+  border-radius: var(--radius-full) !important;
+  z-index: 0 !important;
+}
+/* Fill: colored bar (space above comes from li min-height + em margin-bottom) */
+#resume .bars .bar-expand {
+  position: absolute !important;
+  left: 0 !important;
+  bottom: 0 !important;
+  top: auto !important;
+  height: 12px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  padding-right: 0 !important;
+  min-width: 0 !important;
+  border-radius: var(--radius-full) !important;
+  background: linear-gradient(90deg, var(--accent), var(--accent-hover)) !important;
+  box-shadow: none !important;
+  display: block !important;
+  z-index: 1 !important;
+}
+
+/* Portfolio */
+#portfolio {
+  background: var(--bg-elevated) !important;
+  padding-top: 6rem !important;
+  padding-bottom: 4rem !important;
+}
+
+#portfolio h1 {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 1.4rem !important;
+  letter-spacing: 0.1em !important;
+  color: var(--text-secondary) !important;
+  margin-bottom: 2.5rem !important;
+}
+
+.portfolio-item .item-wrap {
+  background: var(--bg-card) !important;
+  border-radius: var(--radius-lg) !important;
+  overflow: hidden !important;
+  border: 1px solid var(--border) !important;
+  box-shadow: var(--shadow) !important;
+  transition: transform var(--transition), box-shadow var(--transition) !important;
+}
+.portfolio-item .item-wrap:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg) !important;
+}
+.portfolio-item .item-wrap .overlay {
+  background: linear-gradient(180deg, transparent 0%, rgba(10, 10, 11, 0.9) 100%) !important;
+}
+.portfolio-item .portfolio-item-meta h5 {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 1.55rem !important;
+}
+.portfolio-item .portfolio-item-meta p {
+  font-size: 1.3rem !important;
+  color: var(--text-secondary) !important;
+}
+.portfolio-item .link-icon {
+  background: var(--accent) !important;
+  color: var(--bg-dark) !important;
+  width: 44px !important;
+  height: 44px !important;
+  line-height: 44px !important;
+  font-size: 1.3rem !important;
+  border-radius: var(--radius-full) !important;
+  margin-left: -22px !important;
+  margin-top: -22px !important;
+}
+
+/* Contact */
+#contact {
+  background: var(--bg-dark) !important;
+  padding-top: 6rem !important;
+  padding-bottom: 5rem !important;
+}
+
+#contact h1 {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 1.4rem !important;
+  letter-spacing: 0.1em !important;
+  color: var(--text-primary) !important;
+}
+#contact h1:before {
+  color: var(--accent) !important;
+  opacity: 0.9 !important;
+}
+#contact h4 {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 1.4rem !important;
+  color: var(--text-primary) !important;
+}
+#contact p.lead {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 1.4rem !important;
+  color: var(--text-secondary) !important;
+}
+#contact label {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 1.35rem !important;
+  color: var(--text-primary) !important;
+}
+#contact input,
+#contact textarea,
+#contact select {
+  font-size: 1.25rem !important;
+  background: var(--bg-card) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--radius-md) !important;
+  color: var(--text-primary) !important;
+  transition: border-color var(--transition), box-shadow var(--transition) !important;
+}
+#contact input:focus,
+#contact textarea:focus,
+#contact select:focus {
+  background: var(--bg-card) !important;
+  border-color: var(--accent) !important;
+  box-shadow: 0 0 0 3px var(--accent-soft) !important;
+  outline: none !important;
+}
+#contact button.submit {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 1.35rem !important;
+  background: var(--accent) !important;
+  color: var(--bg-dark) !important;
+  border: none !important;
+  border-radius: var(--radius-md) !important;
+  padding: 0.85rem 1.85rem !important;
+  font-weight: 600 !important;
+  transition: background var(--transition), transform var(--transition) !important;
+}
+#contact button.submit:hover {
+  background: var(--accent-hover) !important;
+  color: var(--bg-dark) !important;
+  transform: translateY(-1px);
+}
+#contact .required, #contact a {
+  color: var(--accent) !important;
+}
+#contact a:hover {
+  color: var(--accent-hover) !important;
+}
+#message-success {
+  color: var(--accent) !important;
+}
+
+/* Footer */
+footer {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+  font-size: 1.25rem !important;
+  color: var(--text-muted) !important;
+  font-family: 'DM Sans', sans-serif !important;
+  border-top: 1px solid var(--border) !important;
+}
+footer .copyright li {
+  font-size: 1.2rem !important;
+}
+
+footer a {
+  color: var(--text-secondary) !important;
+  transition: color var(--transition) !important;
+}
+footer a:hover {
+  color: var(--accent) !important;
+}
+footer .social-links li a {
+  color: var(--text-secondary) !important;
+}
+footer .social-links li a:hover {
+  color: var(--accent) !important;
+}
+footer .copyright li:before {
+  color: var(--text-muted) !important;
+}
+
+#go-top a {
+  background: var(--bg-elevated) !important;
+  border: 1px solid var(--border) !important;
+  color: var(--text-primary) !important;
+  border-radius: var(--radius-full) !important;
+  transition: background var(--transition), border-color var(--transition), color var(--transition) !important;
+}
+#go-top a:hover {
+  background: var(--accent) !important;
+  border-color: var(--accent) !important;
+  color: var(--bg-dark) !important;
+}
+
+/* Testimonials (if used) */
+#testimonials {
+  background: var(--bg-card) !important;
+}
+#testimonials h1 {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 1.4rem !important;
+  color: var(--text-primary) !important;
+}
+#testimonials blockquote p {
+  font-family: 'DM Sans', sans-serif !important;
+  font-size: 1.4rem !important;
+  color: var(--text-primary) !important;
+}
